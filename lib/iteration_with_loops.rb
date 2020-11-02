@@ -6,4 +6,4 @@ def find_even_values(src)
   puts src
 end
 
-find_even_values
+find_even_values(1,2,3,4,5,6)
