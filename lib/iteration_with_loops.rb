@@ -4,10 +4,10 @@ def find_even_values(src)
   # Output all even values in each nested array
   count = 0
   while src[count] do
-    while src[][] do
-      inner_count = 0
-      if src[][].even?
-        puts src[][]
+    inner_count = 0
+    while src[count][inner_count] do
+      if src[count][inner_count].even?
+        puts src[count][inner_count]
       end
       inner_count += 1
     end
