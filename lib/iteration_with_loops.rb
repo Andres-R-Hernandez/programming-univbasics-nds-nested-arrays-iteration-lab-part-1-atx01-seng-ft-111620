@@ -9,9 +9,9 @@ def find_even_values(src)
       inner_count = 0
       if src[][].even?
         puts src[][]
+      end
       inner_count += 1
     end
     count += 1
   end
-
 end
