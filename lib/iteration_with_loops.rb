@@ -1,5 +1,3 @@
-matrix = [[1,2,3],[4,5,6],[3,5,9]]
-
 def find_even_values(src)
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
   #
@@ -16,5 +14,3 @@ def find_even_values(src)
     count += 1
   end
 end
-
-find_even_values(matrix)
